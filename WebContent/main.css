@@ -1,1 +1,37 @@
-@CHARSET "ISO-8859-1";
+body {
+	height: 100%;
+	margin: 0;
+	text-align: center;
+	width: 100%;
+}
+
+h1 {
+	font-size: 32px;
+  font-family: Palatino, 'Palatino Linotype', serif;
+  color: DarkOliveGreen;
+}
+
+h2 {
+	font-size: 56px;
+}
+
+
+hero {background-image: url("http://www.ticino.ch/pictures/capanne/verybig4/13317_09.jpg");
+  background-size: cover;
+  color: #ffffff;
+  padding: 250px 0;
+	margin: 0px;
+  font-family: 'Trebuchet MS', Helvetica, sans-serif;}
+
+
+
+p {font-size: 2rem;
+   color: black;}
+
+
+a.hero {
+  color: #00ff00;
+	text-decoration: none;
+  font-size: 1.25em;
+}
+
