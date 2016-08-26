@@ -16,13 +16,12 @@ h2 {
 }
 
 
-hero {background-image: url("http://www.ticino.ch/pictures/capanne/verybig4/13317_09.jpg");
+.hero {background-image: url("http://www.ticino.ch/pictures/capanne/verybig4/13317_09.jpg");
   background-size: cover;
-  color: #ffffff;
+  color: #ff0000;
   padding: 250px 0;
 	margin: 0px;
   font-family: 'Trebuchet MS', Helvetica, sans-serif;}
-
 
 
 p {font-size: 2rem;
@@ -35,3 +34,4 @@ a.hero {
   font-size: 1.25em;
 }
 
+#footer {font-size: 0.75rem; }

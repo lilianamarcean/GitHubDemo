@@ -1,0 +1,31 @@
+p {border: 2px solid black;}
+
+.gallery-item { border: 5px solid #FFF;}
+
+p {padding: 20px;}
+
+.page-descripion {padding: 30px;}
+
+.answer {margin: 2rem;}
+
+gallery-item {margin: 20px;}
+
+.gallery {margin-top: 20px;
+         display: flex;
+         flex-wrap: wrap;
+          justify-content: center;}
+
+
+
+li.nav {display:inline;}
+
+.logo {float: left;}
+
+#search-bar {float: right;}
+
+.contact-btn {float: right;}
+
+.parent {flex-wrap: wrap;}
+         
+
+       
