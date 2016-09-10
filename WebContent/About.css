@@ -1,0 +1,57 @@
+/* cazul 1:
+ numele stilului nu e un tag html
+ numele trebuie intotdeauna sa fie precedat de punct
+ stilul se va aplica generic pentru toate tagurile html ce suporta proprietatea respectiva.
+ */
+.myc {
+	color: purple;
+}
+
+/* cazul 2:
+ numele stilului e un tag html
+ numele stilului nu e precedat de nimic
+ se aplica la toate h1 care nu folosesc un still si tuturor h1 ce nu schimba proprietatea color
+ */
+h1 {
+	color: red;
+}
+
+/* cazul 3:
+ specializam un stil doar pentru un anumit tag html
+ se aplica doar la h1 cand utilizeaza stilul myc
+ */
+h1.myc {
+	color: blue;
+	font-weight: bold;
+}
+
+/* cazul 4:
+ specializam un stil doar cind un tag e inclus intr-un alt tag ce foloseste un stil mentionat
+ stilul myc va fi aplicat la toate h1 cind sunt incluse intr-un div ce utilizeaza stilul myc
+ */
+div.myc h1 {
+	font-weight: italic;
+}
+
+.myc2 {
+    font-size: 60px;
+	color: pink;
+}
+
+div.expl {
+	border-style: solid;
+	border-color: green;
+	border-width: 1px;
+}
+
+div.file {
+	border-style: solid;
+	border-color: blue;
+	border-width: 2px;
+}
+
+div.afisat {
+	border-style: solid;
+	border-color: magenta;
+	border-width: 2px;
+}

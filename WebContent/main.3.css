@@ -24,8 +24,13 @@ li.nav {display:inline;}
 #search-bar {float: right;}
 
 .contact-btn {float: right;}
+.contact-btn a {position: relative;
+                top: 2px;}
+.contact-btn a:active {top: 2px;}
 
 .parent {flex-wrap: wrap;}
          
+
+       
 
        
