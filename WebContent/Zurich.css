@@ -1,0 +1,10 @@
+@CHARSET "ISO-8859-1";
+img {
+	width:200px;
+	height:200px;
+}
+
+table, td {
+	border: 1px #70b8ff dashed;
+}
+ 
